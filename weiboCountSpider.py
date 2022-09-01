@@ -110,7 +110,7 @@ if __name__ == '__main__':
     if iyuu_token is None:
         print('未传入 爱与飞飞 Token，将不会向微信发送微博数量变动通知')
 
-    get_weibo_count(always_send_notice=True)
+    get_weibo_count(always_send_notice=False)
 
     # 以下是定时任务不需要则可以将一下内容注释
     scheduler = BlockingScheduler()
