@@ -1,3 +1,9 @@
+# My Ignore
+.idea/
+
+weibo_content_list.json
+weibo_count_data.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
